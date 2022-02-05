@@ -2,8 +2,6 @@ const fs = require('fs-extra');
 const TelegramBot = require('node-telegram-bot-api')
 const ffmpegInstaller = require('@ffmpeg-installer/ffmpeg');
 const ffmpeg = require('fluent-ffmpeg');
-const http = require('http');
-const apiCallFromRequest = require('./Request')
 const request = require('request');
 
 ffmpeg.setFfmpegPath(ffmpegInstaller.path);
